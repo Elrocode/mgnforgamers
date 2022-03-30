@@ -1,12 +1,4 @@
-.top-img
-{
-    background-image: url(img/tittle/titlepic.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position-y: -957;
-    color: rgb(206, 191, 191);
-    
-}
+
 
 .navbar-brand
 {
@@ -59,8 +51,15 @@
     background-size: 160px 100px;
 }
 
+.menu-item:hover
+{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+     transform: scale(1.1); 
+}
 .menu-item a {
     color: #FFFFFF;
+    
 }
 
 .simulasyon
