@@ -13,7 +13,6 @@
     integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="gamingsite.css">
-
 </head>
 
 <body>
@@ -72,51 +71,108 @@
     </div>
   </nav>
   <div class="container">
-    <div class="row m-t-10">
+    <div class="row jumbotron">
       <div class="col-md-6">
         <div class="row">
-          <div class="col-md-12 h-effect">
-            <a href="">
-            <img src="img/mainnews/fortnitemain.jpg" class="img-responsive img-rounded" alt="">
-            
-            </a>
+          <div class="col-md-12">
+            <div class="effect">
+              <a href="#" class="image-hove">
+                <img src="img/mainnews/fortnitemain.jpg" class="img-responsive img-rounded" alt="">
+                <div class="detail-hove">
+                  <span class="head-hove span-hove">
+                    Fortnite İnşşat Yok.
+                  </span>
+                  <span class="info-hove span-hove">
+                    Yeni sezonda inşaat tamamen kalktı,
+                    muhtemelen de ayrı bir mod olarak duracak.
+                  </span>
+                </div>
+              </a>
+            </div>
           </div>
           <div class="row">
-            <div class="col-md-6 m-t-10 h-effect">
-              <a href="">
-              <img src="img/mainnews/rlvalleyballmain.jpg" class="img-responsive img-rounded" alt="">
-            </a>
+            <div class="col-md-6 m-t-10 ">
+              <div class="effect">
+                <a href="" class="image-hove">
+                  <img src="img/mainnews/rlvalleyballmain.jpg" class="img-responsive img-rounded rl-pad" alt="">
+                  <div class="detail-hove">
+                    <span class="head-hove span-hove">
+                      Rocket League yeni sezon.
+                    </span>
+                    <span class="info-hove span-hove">
+                      Yeni sezonnda , Ligde Voleybol da olacak.
+                    </span>
+                  </div>
+              </div>
+              </a>
             </div>
-            <div class="col-md-6 m-t-10 h-effect">
-              <a href="">
-              <img src="img/mainnews/rb6siegemain.jpg" class="img-responsive img-rounded" alt="">
-            </a>
+            <div class="col-md-6 m-t-10">
+              <div class="effect">
+                <a href="" class="image-hove">
+                  <img src="img/mainnews/rb6siegemain.jpg" class="img-responsive img-rounded rb6-pad" alt="">
+                  <div class="detail-hove">
+                    <span class="head-hove span-hove">
+                      Rainbow 6 Siege
+                    </span>
+                    <span class="info-hove span-hove">
+                      R6, Mobile uyarlanıyor ,iş ilanı resmen verildi.
+                    </span>
+                  </div>
+              </div>
+              </a>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-3 h-effect">
-        <a href="">
-        <img src="img/mainnews/diablomain.jpg" class="img-responsive img-rounded" alt="">
-      </a>
-      </div>  
-        <div class="col-md-3 h-effect">
-          <a href="">
+      <div class="col-md-3 m-t-10">
+        <div class="effect">
+          <a href="" class="image-hove">
+            <img src="img/mainnews/diablomain.jpg" class="img-responsive img-rounded" alt="">
+            <div class="detail-hove">
+              <span class="head-hove span-hove">
+                Diablo İmmortal
+              </span>
+              <span class="info-hove span-hove">
+                Bu 2 ay içinde çıkması kesinleşti.
+              </span>
+            </div>
+        </div>
+        </a>
+      </div>
+      <div class="col-md-3 h-effect m-t-10">
+        <div class="effect">
+          <a href="" class="image-hove">
             <img src="img/mainnews/valomain.jpg" class="img-responsive img-rounded" alt="">
+            <div class="detail-hove">
+              <span class="head-hove span-hove">
+                Valorant Mobile ?
+              </span>
+              <span class="info-hove span-hove">
+                Riot Games kolları sıvadı.
+              </span>
+            </div>
+        </div>
+        </a>
+      </div>
+      <div class="row">
+        <div class="col-md-6 h-effect m-t-10">
+          <div class="effect">
+            <a href="" class="image-hove">
+              <img src="img/mainnews/wowmain.jpg" class="img-responsive img-rounded m-t-10" alt="">
+              <div class="detail-hove">
+                <span class="head-hove span-hove">
+                  World of Warcraft Mobile geliyor.
+                </span>
+                <span class="info-hove span-hove">
+                  Microsoft hamle üsütne hamle yapıyor ,
+                  mobil evren genişliyor.
+                </span>
+              </div>
+          </div>
           </a>
         </div>
-        <div class="row">
-          <div class="col-md-6 h-effect">
-            <a href="">
-            <img src="img/mainnews/wowmain.jpg" class="img-responsive img-rounded m-t-10" alt="">
-            </a>
-          </div>
-        </div>
-      
+      </div>
     </div>
-
-
-
     <div class="row text-center">
       <div class="col-md-2 col-sm-4 col-xs-6">
         <div class="menu-item simulasyon">
@@ -154,7 +210,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="main-header">
-              <span>Son Eklenenler</span>
+              <span id="sptr">Son Eklenenler</span>
             </div>
           </div>
         </div>
@@ -172,7 +228,7 @@
         </div>
         <div class="row">
           <div class="col-md-12 text-right">
-            <span class="help-block">Eklenme Tarihi: 26.03.2022 / 02:27</span>
+            <span id="sptr" class="help-block">Eklenme Tarihi: 26.03.2022 / 02:27</span>
           </div>
         </div>
         <div class="row">
@@ -198,7 +254,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="main-header">
-          <span>Android / En Popüler Oyunlar</span>
+          <span id="sptr">Android / En Popüler Oyunlar</span>
         </div>
       </div>
     </div>
@@ -367,11 +423,10 @@
         </div>
       </div>
     </div>
-
     <div class="row">
       <div class="col-md-12">
         <div class="main-header m-t-10">
-          <span>Haftanın Videosu</span>
+          <span id="sptr">Haftanın Videosu</span>
         </div>
       </div>
     </div>
@@ -388,7 +443,6 @@
                 allowfullscreen></iframe>
             </div>
           </div>
-
         </div>
         <div class="row">
           <div class="col-md-12">
@@ -418,14 +472,12 @@
         </p>
       </div>
     </div>
-
-
     <div class="row">
       <div class="col-md-9">
         <div class="row">
           <div class="col-md-12">
             <div class="main-header m-t-10">
-              <span>Haber Akışı</span>
+              <span id="sptr">Haber Akışı</span>
             </div>
           </div>
         </div>
@@ -482,14 +534,13 @@
         <div class="row">
           <div class="col-md-12">
             <div class="main-header m-t-10">
-              <span>Anket</span>
+              <span id="sptr">Anket</span>
             </div>
           </div>
         </div>
         <div class="row m-t-10">
           <div class="col-md-12">
             <p>Bu siteyi puanlayın ?</p>
-
             <label class="radio-inline">
               <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1
             </label>
@@ -505,15 +556,12 @@
             <label class="radio-inline">
               <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 5
             </label>
-
             <p>Ne tür oyunlardan hoşlanırsınız ?</p>
-
             <div class="checkbox">
               <label>
                 <input type="checkbox" value="">
                 MMO-RPG
               </label>
-
               <label>
                 <input type="checkbox" value="">
                 FPS
@@ -530,12 +578,10 @@
                 <input type="checkbox" value="">
                 Smulasyon
               </label>
-
             </div>
             <div class="text-right">
               <input class="btn btn-default" type="submit" value="Submit">
             </div>
-
           </div>
         </div>
       </div>
